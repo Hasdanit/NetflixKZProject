@@ -1,22 +1,22 @@
 nav ul {
-    list-style: none; /* Убираем маркеры списка */
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Делаем элементы списка блочными и располагаем их горизонтально */
-    justify-content: center; /* Центрируем элементы по горизонтали */
+    display: flex; 
+    justify-content: center; 
 }
 
 nav li {
-    margin: 0 10px; /* Добавляем отступы между элементами */
+    margin: 0 10px; 
 }
 
 nav a {
-    text-decoration: none; /* Убираем подчеркивание у ссылок */
-    color: #333; /* Цвет текста ссылок */
-    padding: 10px 15px; /* Добавляем отступы внутри элементов списка */
-    border-radius: 5px; /* Скругленные углы */
+    text-decoration: none; 
+    color: #333; 
+    padding: 10px 15px;
+    border-radius: 5px; 
 }
 
 nav a:hover {
-    background-color: #f0f0f0; /* Изменяем фон при наведении курсора */
+    background-color: #f0f0f0; 
 }
