@@ -23,15 +23,30 @@ background-color: rgb(194, 178, 128);
 border-radius: 10%;
 
 }
-.quote {
-    text-align: center;
-}
+
 
 nav a {
 color: rgb(245, 245, 220);
 text-decoration: none;
 padding: 0px 15px;
 }
+.slogan{
+    flex-direction: column;
+    justify-content: center;
+}
+.slogan h1{
+    font-size: 40px;
+    margin: 0%;
+    padding: 0%;
+    border: 0cap;
+}
+.slogan h6{
+    margin: 0%;
+    padding: 0%;
+    border: 0cap;
+}
+
+
 
 nav a:hover {
 color: #B76015;
