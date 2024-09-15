@@ -23,9 +23,10 @@ background-color: #3EB1B7;
 border-radius: 10%;
 
 }
-.quote p{
-align-items: center;
+.quote {
+    text-align: center;
 }
+
 nav a {
 color: #47A012;
 text-decoration: none;
