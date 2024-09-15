@@ -33,9 +33,12 @@ padding: 0px 15px;
 }
 
 nav a:hover {
-background-color: #B76015;
-
+color: #B76015;
 }
+nav li:hover {
+background-color: #6D061E;
+}
+
 
 .signup {
 font-size: large;
