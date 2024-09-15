@@ -1,26 +1,42 @@
+body {
+background-color: #5EB3B7;
+margin: 0px;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #a81335;
+padding: 10px;
+
+}
+
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    justify-content: center;
-    background: #a81335; 
+list-style: none;
+display: flex;
 }
 
 nav li {
-    margin: 0 5px;
-    background-color: aqua; 
-    padding: 0px;
-    
-}
+margin: 0px 5px;
+background-color: #3EB1B7;
+border-radius: 10%;
 
+}
+.quote p{
+align-items: center;
+}
 nav a {
-    text-decoration: none; 
-    color: #333; 
-    padding: 10px 15px;
-    border-radius: 5px; 
+color: #47A012;
+text-decoration: none;
+padding: 0px 15px;
 }
 
 nav a:hover {
-    background-color: #f0f0f0; 
+background-color: #B76015;
+
+}
+
+.signup {
+font-size: large;
 }
