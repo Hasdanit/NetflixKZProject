@@ -3,61 +3,63 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet">
+        <link rel="stylesheet" href="style_profile.css">
         <title>NetflixKZ || Profile</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><h1><a href="">NetflixKz</a></h1></li>
-                    <li><h2><a href="index.html">Main page</a></h2></li>
-                    <li><h2><a href="search.html">Search</a></h2></li>
-                    <li><h2><a href="tops.html">Tops</a></h2></li>
-                    <li><h2><a href="about.html">About</a></h2></li>
-                    <li><h2><a href="profile.html">Profile</a></h2></li>
+        <header id="header-section">
+            <nav id="navbar">
+                <ul class="nav-list">
+                    <li><h1><a href="index.html" class="nav-logo">NetflixKz</a></h1></li>
+                    <li><h2><a href="index.html" class="nav-item">Main page</a></h2></li>
+                    <li><h2><a href="search.html" class="nav-item">Search</a></h2></li>
+                    <li><h2><a href="tops.html" class="nav-item">Tops</a></h2></li>
+                    <li><h2><a href="about.html" class="nav-item">About</a></h2></li>
+                    <li><h2><a href="profile.html" class="nav-item">Profile</a></h2></li>
                 </ul>
-                <div style="position: fixed; right: 10px; top: 10px;font-size: large;"><a href="signup.html">Login/Register</a></div>
+                <div>
+                    <a href="signup.html" class="login-link">Login/Register</a>
+                </div>
             </nav>
         </header>
-        <main>
-            <section>
-                <h2>Watch History</h2>
-                <ul>
-                    <li>
-                        <img src="https://a.d-cd.net/Q4AAAgJDVeA-1920.jpg" width="150">
+        <main id="main-section">
+            <section id="watch-history" class="profile-section watch-history">
+                <h2 class="section-heading">Watch History</h2>
+                <ul class="media-list">
+                    <li class="media-item">
+                        <img src="https://a.d-cd.net/Q4AAAgJDVeA-1920.jpg" class="media-thumbnail" alt="Once upon a time in... Hollywood">
                         Once upon a time in... Hollywood
                     </li>
-                    <li>
-                        <img src="https://static.kinoafisha.info/k/movie_posters/1080x1920/upload/movie_posters/2/5/9/3977952/615146491653464847.jpg" width="150">
+                    <li class="media-item">
+                        <img src="https://static.kinoafisha.info/k/movie_posters/1080x1920/upload/movie_posters/2/5/9/3977952/615146491653464847.jpg" class="media-thumbnail" alt="Seven">
                         Seven
                     </li>
-                    <li>
-                        <img src="https://avatars.mds.yandex.net/i?id=0a93998ead65cfa930f95c7bed32ebc3da2e3a01-10126262-images-thumbs&n=13" width="150">
+                    <li class="media-item">
+                        <img src="https://avatars.mds.yandex.net/i?id=0a93998ead65cfa930f95c7bed32ebc3da2e3a01-10126262-images-thumbs&n=13" class="media-thumbnail" alt="Deadpool & Wolverine">
                         Deadpool & Wolverine
                     </li>
                 </ul>
             </section>
-            <section>
-                <h2>Favorites</h2>
-                <ul>
-                    <li>
-                        <img src="https://sun9-9.userapi.com/impg/B7EIiBIjB9dy32DibMcCHQEB0j1SM8H5CKsIBg/D84aVZ1GsX8.jpg?size=960x1440&quality=96&sign=5a802bdb69a45db5fdef25a0b5743f49&c_uniq_tag=KuAaUOnHjrMhPLYIEDSFDyzueDy3C3AdAZTy_s6-7eI&type=album" width="150">
+            <section id="favorites" class="profile-section favorites">
+                <h2 class="section-heading">Favorites</h2>
+                <ul class="media-list">
+                    <li class="media-item">
+                        <img src="https://sun9-9.userapi.com/impg/B7EIiBIjB9dy32DibMcCHQEB0j1SM8H5CKsIBg/D84aVZ1GsX8.jpg?size=960x1440&quality=96&sign=5a802bdb69a45db5fdef25a0b5743f49&c_uniq_tag=KuAaUOnHjrMhPLYIEDSFDyzueDy3C3AdAZTy_s6-7eI&type=album" class="media-thumbnail" alt="The Lord of the Rings: The Fellowship of the Ring">
                         The Lord of the Rings: The Fellowship of the Ring
                     </li>
-                    <li>
-                        <img src="https://basket-13.wbbasket.ru/vol1972/part197212/197212349/images/big/1.jpg" width="150">
+                    <li class="media-item">
+                        <img src="https://basket-13.wbbasket.ru/vol1972/part197212/197212349/images/big/1.jpg" class="media-thumbnail" alt="The Avengers: Endgame">
                         The Avengers: Endgame
                     </li>
-                    <li>
-                        <img src="https://avatars.mds.yandex.net/i?id=5e85fcae74239161ca8e8540d0f870cc_l-10512135-images-thumbs&n=13" width="150">
+                    <li class="media-item">
+                        <img src="https://avatars.mds.yandex.net/i?id=5e85fcae74239161ca8e8540d0f870cc_l-10512135-images-thumbs&n=13" class="media-thumbnail" alt="The Dark Knight">
                         The Dark Knight
                     </li>
                 </ul>
             </section>
         </main>
-        <footer>
-            <section>
+        <footer id="footer-section">
+            <section class="footer-info">
                 <p><b>This page made by Nurzhan Kaskeyev</b></p>
                 <p>Contacts: examplemail.com</p>
                 <p>Powered by KazakhNetflixDevTeam</p>
