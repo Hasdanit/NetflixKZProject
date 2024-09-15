@@ -45,7 +45,11 @@ padding: 0px 15px;
     padding: 0%;
     border: 0cap;
 }
-
+.film-scroller {
+    overflow-x: scroll;
+    white-space: nowrap; 
+    
+}
 
 
 nav a:hover {
