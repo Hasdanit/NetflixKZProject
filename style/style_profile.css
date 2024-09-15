@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#header-section {
+    background-color: red;
+    padding: 10px 0;
+}
+
+#navbar .nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar .nav-item {
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+#navbar .nav-item:hover {
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+.nav-logo {
+    color: white;
+}
+
+.nav-logo:hover {
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+.login-link {
+    color: white;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-size: small;
+}
+
+.login-link:hover {
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+#main-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: red;
+}
+
+.profile-section {
+    padding: 20px;
+}
+
+.profile-section .section-heading {
+    font-size: 1.8rem;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.profile-section .media-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.media-item {
+    margin-bottom: 10px;
+}
+
+.media-thumbnail {
+    margin-right: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+.watch-history .media-list, .favorites .media-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.watch-history .media-item, .favorites .media-item {
+    width: 30%;
+    text-align: center;
+}
+
+.watch-history .media-thumbnail, .favorites .media-thumbnail {
+    width: 150px;
+    height: auto;
+}
+
+#footer-section {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    #navbar .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-input {
+        width: 80%;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+
+    .watch-history .media-item, .favorites .media-item {
+        width: 100%;
+    }
+}

@@ -3,45 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet">
+        <link rel="stylesheet" href="style_signup.css">
         <title>NetflixKZ || Sign up</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><h1><a href="">NetflixKz</a></h1></li>
-                    <li><h2><a href="index.html">Main page</a></h2></li>
-                    <li><h2><a href="search.html">Search</a></h2></li>
-                    <li><h2><a href="tops.html">Tops</a></h2></li>
-                    <li><h2><a href="about.html">About</a></h2></li>
-                    <li><h2><a href="profile.html">Profile</a></h2></li>
+        <header id="header-section">
+            <nav id="navbar">
+                <ul class="nav-list">
+                    <li><h1><a href="index.html" class="nav-logo">NetflixKz</a></h1></li>
+                    <li><h2><a href="index.html" class="nav-item">Main page</a></h2></li>
+                    <li><h2><a href="search.html" class="nav-item">Search</a></h2></li>
+                    <li><h2><a href="tops.html" class="nav-item">Tops</a></h2></li>
+                    <li><h2><a href="about.html" class="nav-item">About</a></h2></li>
+                    <li><h2><a href="profile.html" class="nav-item">Profile</a></h2></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <h2>Register</h2>
-                <div>
-                    <label>Username</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label>Email</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label>Password</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label">Confirm Password</label>
-                    <input type="text">
-                </div>
-                <button>Sign Up</button>
-            <p>Already have an account?<a href="login.html">Login here</a>.</p>
+        <main id="main-section">
+            <h2 class="section-heading">Register</h2>
+            <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" id="email" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="text" id="password" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="confirm-password" class="form-label">Confirm Password</label>
+                <input type="text" id="confirm-password" class="form-input">
+            </div>
+            <button class="submit-btn">Sign Up</button>
+            <p class="form-text">Already have an account? <a href="login.html" class="form-link">Login here</a>.</p>
         </main>
-        <footer>
-            <section>
+        <footer id="footer-section">
+            <section class="footer-info">
                 <p><b>This page made by Nurzhan Kaskeyev</b></p>
                 <p>Contacts: examplemail.com</p>
                 <p>Powered by KazakhNetflixDevTeam</p>
