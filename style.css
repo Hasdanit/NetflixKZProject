@@ -46,9 +46,32 @@ padding: 0px 15px;
     border: 0cap;
 }
 .film-scroller {
-    overflow-x: scroll;
-    white-space: nowrap; 
+    margin: 1%;
+    display: flex;
+    overflow-x:auto;
+    background-color:#312727;
+    border: 20px solid rgb(57, 70, 76);
+}
+  
+  
+.film-scroller img {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    align-items: center;
+    max-width: 350px;
+    object-fit: contain;
     
+  }
+.popular{
+    margin: 1%;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+footer{
+    color: rgb(211, 211, 211);
+    background-color: rgb(57, 70, 76);
 }
 
 
@@ -58,8 +81,34 @@ color: #B76015;
 nav li:hover {
 background-color: #a16060;
 }
-
-
 .signup {
 font-size: large;
+}
+.quote{
+    text-align: center;
+    font-size: 39px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 700;
+    margin: 5%;
+}
+.recomendations{
+    margin: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr)); 
+    grid-gap: 100px; 
+    justify-items: center; 
+    align-items: center; 
+  }
+.recomendations img{
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+}
+.recomendations-word{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38;
+    font-weight: bold;
+    margin: 1%;
+
 }
