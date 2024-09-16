@@ -1,6 +1,9 @@
 body {
 background-color:rgb(211, 211, 211) ;
 margin: 0px;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
 }
 
 nav {
@@ -70,6 +73,7 @@ padding: 0px 15px;
 
   }
 footer{
+    margin-top: auto;
     color: rgb(211, 211, 211);
     background-color: rgb(57, 70, 76);
 }
@@ -111,21 +115,31 @@ font-size: large;
     font-weight: bold;
     margin: 1%;
 }
-.seacrh{
-    margin: 10;
+.search{
+
+    margin: 10px;
 }
 .search p{
     margin: 0;
 }
 .search h1{
-    
-    font-size: 50;
+    background-color: #312727;
+    font-size: 50; 
     font-weight: 900;
     margin: 0;
 }
 .search select{
     margin: 0%;
+    height: 40px;
+    font-size: 20px;
+
 }
-.seacrh input{
-    
+.search input{
+  width: 300px;
+  height: 30px;
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid rgb(57, 70, 76);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
