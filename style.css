@@ -1,5 +1,5 @@
 body {
-background-color: #5EB3B7;
+background-color:rgb(211, 211, 211) ;
 margin: 0px;
 }
 
@@ -7,7 +7,7 @@ nav {
 display: flex;
 justify-content: space-between;
 align-items: center;
-background: #a81335;
+background: rgb(57, 70, 76);
 padding: 10px;
 
 }
@@ -19,24 +19,44 @@ display: flex;
 
 nav li {
 margin: 0px 5px;
-background-color: #3EB1B7;
+background-color: rgb(194, 178, 128);
 border-radius: 10%;
 
 }
-.quote p{
-align-items: center;
-}
+
+
 nav a {
-color: #47A012;
+color: rgb(245, 245, 220);
 text-decoration: none;
 padding: 0px 15px;
 }
+.slogan{
+    flex-direction: column;
+    justify-content: center;
+}
+.slogan h1{
+    font-size: 40px;
+    margin: 0%;
+    padding: 0%;
+    border: 0cap;
+}
+.slogan h6{
+    margin: 0%;
+    padding: 0%;
+    border: 0cap;
+}
+.film-scroller {
+    overflow-x: scroll;
+    white-space: nowrap; 
+    
+}
+
 
 nav a:hover {
 color: #B76015;
 }
 nav li:hover {
-background-color: #6D061E;
+background-color: #a16060;
 }
 
 
