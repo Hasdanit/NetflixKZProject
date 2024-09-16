@@ -1,78 +1,123 @@
-body { 
-    font-family: Arial; 
-    background-color: black; 
-    color: white; 
-} 
- 
-header { 
-    background-color: red; 
-    padding: 20px; 
-    text-align: center; 
-} 
- 
-nav ul { 
-    list-style: none; 
-    padding: 0; 
-} 
- 
-nav ul li { 
-    display: inline; 
-    margin: 10px; 
-} 
- 
-nav ul li a { 
-    color: white; 
-    text-decoration: none; 
-    font-size: 1.2em; 
-} 
- 
-nav ul li a:hover { 
-    color: gray; 
-} 
- 
-h1, h2 { 
-    color: white; 
-} 
- 
-section { 
-    margin: 20px; 
-} 
- 
-ul { 
-    list-style: none; 
- 
-} 
- 
-ul li { 
-    margin-bottom: 15px; 
-} 
- 
-footer { 
-    background-color: black; 
-    color: gray; 
-    text-align: center; 
-    padding: 10px; 
-} 
- 
-.social-icons { 
-    text-align: center; 
-} 
-.social-icons img { 
-    display: inline-block; 
-    margin: 0 10px;  
-} 
- 
-.social-icons img { 
-    width: 40px; 
-    height: 40px; 
-    border-radius: 50%; 
-} 
- 
-a { 
-    color: white; 
-    text-decoration: none; 
-} 
- 
-a:hover { 
-    text-decoration: underline; 
+body {
+    background-color: #f0f0f0; 
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(57, 70, 76);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 5px;
+    background-color: rgb(194, 178, 128);
+    border-radius: 10%;
+}
+
+nav a {
+    color: rgb(245, 245, 220);
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+nav a:hover {
+    color: #B76015;
+}
+
+nav li:hover {
+    background-color: #a16060;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slogan h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.slogan h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.film-scroller {
+    margin: 1%;
+    display: flex;
+    overflow-x: auto;
+    background-color: #312727;
+    border: 20px solid rgb(57, 70, 76);
+}
+
+.film-scroller img {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    align-items: center;
+    max-width: 350px;
+    object-fit: contain;
+}
+
+.popular {
+    margin: 1%;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    color: rgb(211, 211, 211);
+    background-color: rgb(57, 70, 76);
+    text-align: center;
+    padding: 10px;
+}
+
+.signup {
+    font-size: large;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons img {
+    display: inline-block;
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
