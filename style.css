@@ -111,4 +111,21 @@ font-size: large;
     font-weight: bold;
     margin: 1%;
 }
-
+.seacrh{
+    margin: 0%;
+    
+}
+.seacrh p{
+    margin: 0%;
+    border: 0cm;
+    padding: 0%;
+}
+.seacrh h1{
+    font-size: 50;
+    font-weight: 900;
+}
+.seacrh select{
+    margin: 0%;
+    border: 0cap;
+    padding: 0%;
+}
