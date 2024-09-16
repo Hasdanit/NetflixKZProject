@@ -112,20 +112,20 @@ font-size: large;
     margin: 1%;
 }
 .seacrh{
-    margin: 0%;
+    margin: 10;
+}
+.search p{
+    margin: 0;
+}
+.search h1{
     
-}
-.seacrh p{
-    margin: 0%;
-    border: 0cm;
-    padding: 0%;
-}
-.seacrh h1{
     font-size: 50;
     font-weight: 900;
+    margin: 0;
 }
-.seacrh select{
+.search select{
     margin: 0%;
-    border: 0cap;
-    padding: 0%;
+}
+.seacrh input{
+    
 }
