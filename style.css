@@ -130,7 +130,7 @@ font-size: large;
 .search{
     display: flex;
     flex-direction: column;
-    background-color: #dd8367;
+    background-color: #d2beb7;
     margin: 0%;
 }
 .drop-boxes{
@@ -145,7 +145,13 @@ font-size: large;
   border-radius: 5px;
   background-position: right center;
 }
-
+.genre{
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-position: right center;
+}
 .search select option{
     margin: 0%;
     height: auto;
