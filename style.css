@@ -138,19 +138,14 @@ font-size: large;
     flex-direction: row;
 }
 
-.drop-boxes select{
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 200px;
+.year{
+  width: auto;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #fff;
-  background-image: url('arrow-down.png');
-  background-repeat: no-repeat;
   background-position: right center;
 }
+
 .search select option{
     margin: 0%;
     height: auto;
@@ -165,5 +160,4 @@ font-size: large;
   font-size: 20px;
   border: 2px solid rgb(57, 70, 76);
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
