@@ -3,69 +3,90 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style_profile.css">
+        <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="style_profile.css" rel="stylesheet">
         <title>NetflixKZ || Profile</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><h2><a href="index.html">Main page</a></h2></li>
-                    <li><h2><a href="search.html">Search</a></h2></li>
-                    <li><h2><a href="tops.html">Tops</a></h2></li>
-                    <li><h2><a href="about.html">About</a></h2></li>
-                    <li><h2><a href="profile.html">Profile</a></h2></li>
-                </ul>
-                <div class="slogan">
-                    <h1><a href="index.html">NetflixKz</a></h1>
+        <header class="bg-dark p-3">
+            <nav class="navbar navbar-expand-lg navbar-dark container">
+                <div>
+                    <h1><a class="navbar-brand" href="index.html">NetflixKZ</a></h1>
                     <h6>The cinema of the future is already here</h6>
                 </div>
-                <div><a href="signup.html">Login/Register</a></div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Main page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="search.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tops.html">Tops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                        <li class="nav-item"></li>
+                            <a class="nav-link" href="signup.html">Login/Register</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
-        <main id="main-section">
-            <section id="watch-history" class="profile-section watch-history">
-                <h2 class="section-heading">Watch History</h2>
-                <ul class="media-list">
-                    <li class="media-item">
-                        <img src="https://a.d-cd.net/Q4AAAgJDVeA-1920.jpg" class="media-thumbnail" alt="Once upon a time in... Hollywood">
-                        Once upon a time in... Hollywood
-                    </li>
-                    <li class="media-item">
-                        <img src="https://static.kinoafisha.info/k/movie_posters/1080x1920/upload/movie_posters/2/5/9/3977952/615146491653464847.jpg" class="media-thumbnail" alt="Seven">
-                        Seven
-                    </li>
-                    <li class="media-item">
-                        <img src="https://avatars.mds.yandex.net/i?id=0a93998ead65cfa930f95c7bed32ebc3da2e3a01-10126262-images-thumbs&n=13" class="media-thumbnail" alt="Deadpool & Wolverine">
-                        Deadpool & Wolverine
-                    </li>
-                </ul>
+        <main class="profile-container">
+            <div class="profile-header">
+                <h1>Profile</h1>
+                <button class="btn btn-edit">Edit Profile</button>
+            </div>
+            <section class="profile-details mt-4">
+                <img src="images\photo.jpg" alt="Profile Picture">
+                <div class="profile-info">
+                    <h4>Name: Namikadze</h4>
+                    <p>Email: kaskeevnurzhan@gmail.com</p>
+                    <p>Phone: +7 708 722 43 30</p>
+                </div>
             </section>
-            <section id="favorites" class="profile-section favorites">
-                <h2 class="section-heading">Favorites</h2>
-                <ul class="media-list">
-                    <li class="media-item">
-                        <img src="https://sun9-9.userapi.com/impg/B7EIiBIjB9dy32DibMcCHQEB0j1SM8H5CKsIBg/D84aVZ1GsX8.jpg?size=960x1440&quality=96&sign=5a802bdb69a45db5fdef25a0b5743f49&c_uniq_tag=KuAaUOnHjrMhPLYIEDSFDyzueDy3C3AdAZTy_s6-7eI&type=album" class="media-thumbnail" alt="The Lord of the Rings: The Fellowship of the Ring">
-                        The Lord of the Rings: The Fellowship of the Ring
-                    </li>
-                    <li class="media-item">
-                        <img src="https://basket-13.wbbasket.ru/vol1972/part197212/197212349/images/big/1.jpg" class="media-thumbnail" alt="The Avengers: Endgame">
-                        The Avengers: Endgame
-                    </li>
-                    <li class="media-item">
-                        <img src="https://avatars.mds.yandex.net/i?id=5e85fcae74239161ca8e8540d0f870cc_l-10512135-images-thumbs&n=13" class="media-thumbnail" alt="The Dark Knight">
-                        The Dark Knight
-                    </li>
-                </ul>
+            <section class="watch-history mt-4">
+                <h2 class="section-title">Watch History</h2>
+                <div class="media-item">
+                    <img src="images\Once_Upon_a_Time_in_Hollywood.png" alt="Movie 1">
+                    <div>Once upon a time in Hollywood</div>
+                </div>
+                <div class="media-item">
+                    <img src="images\Seven.jpg" alt="Movie 2">
+                    <div>Seven</div>
+                </div>
+                <div class="media-item">
+                    <img src="images\Deadpool_&_Wolverine.jpg" alt="Movie 3">
+                    <div>Deadpool & Wolverine</div>
+                </div>
+            </section>
+            <section class="favorites mt-4">
+                <h2 class="section-title">Favorites</h2>
+                <div class="media-item">
+                    <img src="images\The_Lord_of_the_Rings._The_Fellowship_of_the_Ring.jpg" alt="Favorite 1">
+                    <div>The Lord of the Rings</div>
+                </div>
+                <div class="media-item">
+                    <img src="images\The_Avengers_Endgame.jpg" alt="Favorite 2">
+                    <div>The Avengers: Endgame</div>
+                </div>
+                <div class="media-item">
+                    <img src="images\The_Dark_Knight.jpg" alt="Favorite 3">
+                    <div>The Dark Knight</div>
+                </div>
             </section>
         </main>
-        <footer id="footer-section">
-            <section class="footer-info">
-                <p><b>This page made by Nurzhan Kaskeyev</b></p>
-                <p>Contacts: examplemail.com</p>
-                <p>Powered by KazakhNetflixDevTeam</p>
-                <p>Copyright KazakhNetflixDevTeam 2024</p>
-            </section>
+        <footer class="bg-dark text-center text-light py-3">
+            <p><b>This page made by Nurzhan Kaskeyev</b></p>
+            <p>Contacts: examplemail.com</p>
+            <p>Powered by KazakhNetflixDevTeam</p>
+            <p>Copyright KazakhNetflixDevTeam 2024</p>
         </footer>
     </body>
 </html>

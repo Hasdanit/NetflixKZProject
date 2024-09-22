@@ -1,121 +1,50 @@
 body {
-    background-color: rgb(211, 211, 211);
-    margin: 0;
+    background-color: #141414;
+    color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-header, main {
+main {
     flex: 1; 
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgb(57, 70, 76);
-    padding: 10px;
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    padding: 0px 35px;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav li {
-    margin: 0px 5px;
-    background-color: rgb(194, 178, 128);
-    border-radius: 10%;
-}
-
-nav a {
-    color: rgb(245, 245, 220);
-    text-decoration: none;
-    padding: 0px 15px;
-}
-
-.slogan {
-    flex-direction: column;
-    justify-content: center;
-}
-
-.slogan h1 {
-    font-size: 40px;
-    margin: 0%;
-    padding: 0%;
-    border: 0;
-}
-
-.slogan h6 {
-    color: rgb(245, 245, 220);
-    margin: 0%;
-    padding: 0%;
-    border: 0;
-}
-
-#main-section {
+.form-container {
+    max-width: 500px;
+    margin: 80px auto;
+    background-color: #222;
     padding: 20px;
-    text-align: center;
+    border-radius: 10px;
 }
 
-.section-heading {
-    font-size: 2rem;
-    color: #312727;
+.btn-primary {
+    background-color: red;
+    border: none;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.btn-primary:hover {
+    background-color: rgba(255, 0, 0, 0.829);
 }
 
 .form-label {
-    display: block;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
+    color: #b3b3b3;
 }
 
-.form-input {
-    padding: 10px;
-    width: 100%;
-    max-width: 300px;
-    border: 1px solid gray;
-    border-radius: 5px;
-}
-
-.submit-btn {
-    padding: 10px 20px;
-    background-color: #312727;
+.form-control {
+    background-color: #333;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
-.submit-btn:hover {
-    background-color: #a16060;
-}
-
-.form-text {
-    margin-top: 20px;
-}
-
-.form-link {
-    color: #312727;
-    text-decoration: none;
-}
-
-.form-link:hover {
-    text-decoration: underline;
-}
-
-#footer-section {
-    background-color: rgb(57, 70, 76);
-    color: rgb(211, 211, 211);
-    text-align: center;
-    padding: 20px 0;
-    margin-top: auto; 
-}
-
-.footer-info p {
-    margin: 5px 0;
+.form-control:focus {
+    background-color: #444;
+    color: white;
 }
