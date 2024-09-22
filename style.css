@@ -5,6 +5,9 @@ display: flex;
 flex-direction: column;
 min-height: 100vh;
 }
+#bodySearch{
+    background-color: #d2beb7
+}
 
 nav {
 display: flex;
@@ -136,6 +139,9 @@ font-size: large;
     display: flex;
     flex-direction: row;
 }
+#searchButton{
+    height: 60px;
+}
 
 .year{
   width: auto;
@@ -165,4 +171,20 @@ font-size: large;
   font-size: 20px;
   border: 2px solid rgb(57, 70, 76);
   border-radius: 5px;
+}
+#carouselPopular{
+    max-width: 40%;
+    min-height: 100%;
+}
+.carousel-inner{
+    min-height: 1000px;
+}
+.progress{
+    margin: 30px;
+}
+.statistic{
+    background-color: #dccb86;
+    padding: 5%;
+    border-radius: 10%;
+    margin-top: 40px;
 }
