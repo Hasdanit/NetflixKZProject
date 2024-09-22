@@ -3,46 +3,60 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style_login.css">
+        <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="style_login.css" rel="stylesheet">
         <title>NetflixKZ || Login</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><h2><a href="index.html">Main page</a></h2></li>
-                    <li><h2><a href="search.html">Search</a></h2></li>
-                    <li><h2><a href="tops.html">Tops</a></h2></li>
-                    <li><h2><a href="about.html">About</a></h2></li>
-                    <li><h2><a href="profile.html">Profile</a></h2></li>
-                </ul>
-                <div class="slogan">
-                    <h1><a href="index.html">NetflixKz</a></h1>
+        <header class="bg-dark p-3">
+            <nav class="navbar navbar-expand-lg navbar-dark container">
+                <div>
+                    <h1><a class="navbar-brand" href="index.html">NetflixKZ</a></h1>
                     <h6>The cinema of the future is already here</h6>
                 </div>
-                <div><a href="signup.html">Login/Register</a></div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Main page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="search.html">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tops.html">Tops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
-        <main id="main-section">
-            <h2 class="section-heading">Login</h2>
-            <div class="form-group">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-input">
+        <main>
+            <div class="form-container">
+                <h2 class="text-center">Login</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                    <p class="text-center mt-3">Don't have an account? <a href="signup.html" class="text-white">Signup here</a>.</p>
+                </form>
             </div>
-            <div class="form-group">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-input">
-            </div>
-            <button class="submit-btn">Login</button>
-            <p class="form-text">Don't have an account? <a href="signup.html" class="form-link">Sign up here</a>.</p>
         </main>
-        <footer id="footer-section">
-            <section class="footer-info">
-                <p><b>This page made by Nurzhan Kaskeyev</b></p>
-                <p>Contacts: examplemail.com</p>
-                <p>Powered by KazakhNetflixDevTeam</p>
-                <p>Copyright KazakhNetflixDevTeam 2024</p>
-            </section>
+        <footer class="bg-dark text-center text-light py-3">
+            <p><b>This page made by Nurzhan Kaskeyev</b></p>
+            <p>Contacts: examplemail.com</p>
+            <p>Powered by KazakhNetflixDevTeam</p>
+            <p>Copyright KazakhNetflixDevTeam 2024</p>
         </footer>
     </body>
 </html>
