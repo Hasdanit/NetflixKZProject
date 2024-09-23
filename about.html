@@ -1,55 +1,80 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>About Us - NetflixKZ</title> 
-    <link rel="stylesheet" href="style-almas.css"> 
-</head> 
-<body> 
-    <header> 
-        <nav>
-            <ul>
-                <li><h2><a href="index.html">Main page</a></h2></li>
-                <li><h2><a href="search.html">Search</a></h2></li>
-                <li><h2><a href="tops.html">Tops</a></h2></li>
-                <li><h2><a href="about.html">About</a></h2></li>
-                <li><h2><a href="profile.html">Profile</a></h2></li>
-            </ul>
-            <div class="slogan">
-                <h1><a href="index.html">NetflixKz</a></h1>
-                <h6>The cinema of the future is already here</h6>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - NetflixKZ</title>
+    <link rel="stylesheet" href="style-almas.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background: rgb(57, 70, 76);">
+            <a class="navbar-brand" href="index.html">NetflixKz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Main page</a></li>
+                    <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tops.html">Tops</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                </ul>
+                <div class="signup"><a href="signup.html" class="btn btn-outline-light">Login/Register</a></div>
             </div>
-            
-            <div class="signup"><a href="signup.html">Login/Register</a></div>
         </nav>
+        <div class="text-center mt-4">
+            <h1>About NetflixKZ</h1>
+        </div>
+    </header>
 
-        <h1>About NetflixKZ</h1> 
-    </header> 
- 
-    <section> 
-        <h2>Who We Are</h2> 
-        <p>Welcome to NetflixKZ! We have been bringing you the best movies and TV shows since 2024. Our mission is to provide high-quality streaming content to viewers in Kazakhstan and beyond. Whether you're looking for the latest hits or timeless classics, we've got something for everyone.</p> 
-    </section> 
- 
-    <section> 
-        <h2>Contact Us</h2> 
-        <p>We'd love to hear from you! Reach out to us through our social media channels or send us an email.</p> 
-        <div class="social-icons"> 
-            <a href="https://twitter.com/netflix" target="_blank"> 
-                <img src="https://s.widget-club.com/web/no2/242c8abd540edfc637c137a572361a93.png" width="150" alt="Twitter"> 
-            </a> 
-            <a href="https://instagram.com/netflix" target="_blank"> 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="150" alt="Instagram"> 
-            </a> 
-            <a href="https://facebook.com/netflix" target="_blank"> 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-EMeer5FvMRMm2bUIJFmV1EpfjE-ebTiZPg&s" width="150"alt="Facebook"> 
-            </a> 
-        </div> 
-    </section> 
- 
-    <footer> 
-        <p><b>Page made by Almas Onlasbekov</b></p> 
-    </footer> 
-</body> 
+    <section class="container mt-4">
+        <h2>Who We Are</h2>
+        <p>Welcome to NetflixKZ! We have been bringing you the best movies and TV shows since 2024. Our mission is to provide high-quality streaming content to viewers in Kazakhstan and beyond. Whether you're looking for the latest hits or timeless classics, we've got something for everyone.</p>
+    </section>
+
+    <section class="container mt-4">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Reach out to us through our social media channels or send us an email.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/netflix" target="_blank">
+                <img src="https://s.widget-club.com/web/no2/242c8abd540edfc637c137a572361a93.png" width="50" alt="Twitter">
+            </a>
+            <a href="https://instagram.com/netflix" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="50" alt="Instagram">
+            </a>
+            <a href="https://facebook.com/netflix" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-EMeer5FvMRMm2bUIJFmV1EpfjE-ebTiZPg&s" width="50" alt="Facebook">
+            </a>
+        </div>
+    </section>
+
+    <section class="container mt-4 creators">
+        <h2>Creators</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="alim.png" class="img-fluid rounded-circle" alt="Alimkhan Tusupbekov">
+                <p>Alimkhan Tusupbekov</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="almas.png" class="img-fluid rounded-circle" alt="Almas Onlasbekov">
+                <p>Almas Onlasbekov</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="nurz.png" class="img-fluid rounded-circle" alt="Nurzhan Kaskeyev">
+                <p>Nurzhan Kaskeyev</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center bg-dark text-white py-3">
+        <p><b>Page made by Almas Onlasbekov</b></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
