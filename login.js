@@ -62,7 +62,7 @@ function changeLanguage(lang) {
     document.querySelector('.footList:nth-child(3) a').textContent = translations[lang].tops;
     document.querySelector('.footList:nth-child(4) a').textContent = translations[lang].mainPage;
     document.querySelector('.footList:nth-child(5) a').textContent = translations[lang].search;
-    document.querySelector('.google').textContent = translations[lang].madeBy;
+    document.querySelector('.me').textContent = translations[lang].madeBy;
 }
 
 window.onload = function () {

@@ -3,90 +3,92 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
-        <link href="style_profile.css" rel="stylesheet">
+        <link rel="stylesheet" href="style_profile.css">
         <title>NetflixKZ || Profile</title>
+        <script src="profile.js"></script>
     </head>
     <body>
-        <header class="bg-dark p-3">
-            <nav class="navbar navbar-expand-lg navbar-dark container">
+        <div class="topSide">
+            <div class="netflixIcon">
+                <a href="index.html">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240313101431/Netflix-Logo.png" class="img-netflixIcon"/>
+                </a>
+            </div>
+            <div class="profile-container">
+                <h1 class="profile-title">Profile</h1>
+                <section class="profile-details">
+                    <img src="images/photo.jpg" alt="Profile Picture">
+                    <div class="profile-info">
+                        <h4 class="profile-name">Name: Namikadze</h4>
+                        <p class="profile-email">Email: kaskeevnurzhan@gmail.com</p>
+                        <p class="profile-phone">Phone: +7 708 722 43 30</p>
+                    </div>
+                </section>
+                <section class="media-section">
+                    <h2 class="section-title watch-history-title">Watch History</h2>
+                    <div class="media-item">
+                        <img src="images/Once_Upon_a_Time_in_Hollywood.png" alt="Movie 1">
+                        <div>Once upon a time in Hollywood</div>
+                    </div>
+                    <div class="media-item">
+                        <img src="images/Seven.jpg" alt="Movie 2">
+                        <div>Seven</div>
+                    </div>
+                    <div class="media-item">
+                        <img src="images/Deadpool_&_Wolverine.jpg" alt="Movie 3">
+                        <div>Deadpool & Wolverine</div>
+                    </div>
+                </section>
+                <section class="media-section">
+                    <h2 class="section-title favorites-title">Favorites</h2>
+                    <div class="media-item">
+                        <img src="images/The_Lord_of_the_Rings._The_Fellowship_of_the_Ring.jpg" alt="Favorite 1">
+                        <div>The Lord of the Rings</div>
+                    </div>
+                    <div class="media-item">
+                        <img src="images/The_Avengers_Endgame.jpg" alt="Favorite 2">
+                        <div>The Avengers: Endgame</div>
+                    </div>
+                    <div class="media-item">
+                        <img src="images/The_Dark_Knight.jpg" alt="Favorite 3">
+                        <div>The Dark Knight</div>
+                    </div>
+                </section>
+                <section class="me made-by">
+                    This page made by Nurzhan Kaskeyev
+                </section>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footWidth">
+                <span class="questions">Questions? Call</span> <a href="tel:+77087224330" class="tel-link">+77087224330</a>
                 <div>
-                    <h1><a class="navbar-brand" href="index.html">NetflixKZ</a></h1>
-                    <h6>The cinema of the future is already here</h6>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Main page</a>
+                    <ul class="footLay">
+                        <li class="footList">
+                            <a href="profile.html" class="footLink">Profile</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="search.html">Search</a>
+                        <li class="footList">
+                            <a href="about.html" class="footLink">About Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="tops.html">Tops</a>
+                        <li class="footList">
+                            <a href="tops.html" class="footLink">Tops</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                        <li class="footList">
+                            <a href="index.html" class="footLink">Main page</Main></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="profile.html">Profile</a>
-                        </li>
-                        <li>class="nav-item">
-                            <a class="nav-link" href="signup.html">Login/Register</a>
+                        <li class="footList">
+                            <a href="search.html" class="footLink">Search</a>
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </header>
-        <main class="profile-container">
-            <div class="profile-header">
-                <h1>Profile</h1>
-                <button class="btn btn-edit">Edit Profile</button>
+                <div>
+                    <select class="fa select-language" onchange="changeLanguage()">
+                        <option value="en">English</option>
+                        <option value="ru">Русский</option>
+                        <option value="kz">Қазақша</option>
+                    </select>
+                </div>
             </div>
-            <section class="profile-details mt-4">
-                <img src="images\photo.jpg" alt="Profile Picture">
-                <div class="profile-info">
-                    <h4>Name: Namikadze</h4>
-                    <p>Email: kaskeevnurzhan@gmail.com</p>
-                    <p>Phone: +7 708 722 43 30</p>
-                </div>
-            </section>
-            <section class="watch-history mt-4">
-                <h2 class="section-title">Watch History</h2>
-                <div class="media-item">
-                    <img src="images\Once_Upon_a_Time_in_Hollywood.png" alt="Movie 1">
-                    <div>Once upon a time in Hollywood</div>
-                </div>
-                <div class="media-item">
-                    <img src="images\Seven.jpg" alt="Movie 2">
-                    <div>Seven</div>
-                </div>
-                <div class="media-item">
-                    <img src="images\Deadpool_&_Wolverine.jpg" alt="Movie 3">
-                    <div>Deadpool & Wolverine</div>
-                </div>
-            </section>
-            <section class="favorites mt-4">
-                <h2 class="section-title">Favorites</h2>
-                <div class="media-item">
-                    <img src="images\The_Lord_of_the_Rings._The_Fellowship_of_the_Ring.jpg" alt="Favorite 1">
-                    <div>The Lord of the Rings</div>
-                </div>
-                <div class="media-item">
-                    <img src="images\The_Avengers_Endgame.jpg" alt="Favorite 2">
-                    <div>The Avengers: Endgame</div>
-                </div>
-                <div class="media-item">
-                    <img src="images\The_Dark_Knight.jpg" alt="Favorite 3">
-                    <div>The Dark Knight</div>
-                </div>
-            </section>
-        </main>
-        <footer class="bg-dark text-center text-light py-3">
-            <p><b>This page made by Nurzhan Kaskeyev</b></p>
-            <p>Contacts: examplemail.com</p>
-            <p>Powered by KazakhNetflixDevTeam</p>
-            <p>Copyright KazakhNetflixDevTeam 2024</p>
-        </footer>
+        </div>
     </body>
 </html>

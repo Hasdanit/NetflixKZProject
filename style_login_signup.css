@@ -158,17 +158,9 @@ body {
     color: #8c8c8c;
 }
 
-.google {
+.me {
     font-size: 0.8rem;
     color: #8c8c8c;
-}
-
-.google a {
-    text-decoration: none;
-}
-
-.google a:hover {
-    text-decoration: underline;
 }
 
 .tel-link {
