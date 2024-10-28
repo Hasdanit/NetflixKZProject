@@ -1,18 +1,18 @@
 
 const movies = [
-    { title: "Along the Dark", genre: "thriller", image: "images/killer_heat.jpg" },
-    { title: "Five Night at Freddies", genre: "horror", image: "images/salems_lot.jpg" },
-    { title: "Aboba", genre: "comedy", image: "images/terrifier_three_ver3.jpg" },
-    { title: "The Legends of Anubis", genre: "fantasy", image: "images/things_will_be_different.jpg" },
-    { title: "Jojo's Bizarre Adventures", genre: "action", image: "images/watership_down_ver2.jpg" },
-    { title: "100 Years after", genre: "fantastic", image: "images/aftertomorrow.jpg"},
-    { title: "Crime and Punishment", genre: "thriller", image: "images/crimeandpunishment.jpg" },
-    { title: "Dream Catcher", genre: "fantastic", image: "images/dreamcatcher.jpg" },
-    { title: "Flash", genre: "action", image: "images/flash.jpg" },
-    { title: "While Bird", genre: "romance", image: "images/whitebird.jpg" },
-    { title: "Maria", genre: "romance", image: "images/maria.jpg" },
-    { title: "Deadman", genre: "drama", image: "images/dreamcatcher.jpg"},
-    { title: "Runner", genre: "action", image: "images/runner.jpg"}
+    { title: "Along the Dark", genre: "thriller drama fantasy", image: "images/killer_heat.jpg" },
+    { title: "Five Night at Freddies", genre: "horror action", image: "images/salems_lot.jpg" },
+    { title: "Aboba", genre: "comedy fantastic", image: "images/terrifier_three_ver3.jpg" },
+    { title: "The Legends of Anubis", genre: "fantasy romance", image: "images/things_will_be_different.jpg" },
+    { title: "Jojo's Bizarre Adventures", genre: "action romance fantastic", image: "images/watership_down_ver2.jpg" },
+    { title: "100 Years after", genre: "fantastic drama romance", image: "images/aftertomorrow.jpg"},
+    { title: "Crime and Punishment", genre: "thriller horror comedy", image: "images/crimeandpunishment.jpg" },
+    { title: "Dream Catcher", genre: "fantastic fantasy", image: "images/dreamcatcher.jpg" },
+    { title: "Flash", genre: "action thriller romance", image: "images/flash.jpg" },
+    { title: "While Bird", genre: "romance horror action", image: "images/whitebird.jpg" },
+    { title: "Maria", genre: "romance action drama", image: "images/maria.jpg" },
+    { title: "Deadman", genre: "drama horror comedy", image: "images/dreamcatcher.jpg"},
+    { title: "Runner", genre: "action thriller fantasy", image: "images/runner.jpg"}
 ];
 
 
