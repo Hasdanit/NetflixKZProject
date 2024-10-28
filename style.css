@@ -1,3 +1,93 @@
 #navbuttons{
     background-color: rgb(38, 19, 19);
 }
+body {
+    background-color: #141414;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; 
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    padding: 0px 35px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 80px auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: red;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgba(255, 0, 0, 0.829);
+}
+
+.form-label {
+    color: #b3b3b3;
+}
+
+.form-control {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.form-control:focus {
+    background-color: #444;
+    color: white;
+}
+.accordion-button {
+    background-color: rgb(38, 19, 19);
+    color: red;
+}
+.accordion-body{
+    background-color: rgb(38, 19, 19);
+    color: red;
+}
+.accordion-collapse{
+    background-color: rgb(38, 19, 19);
+    color: red;
+}
+#title{
+    color: rgb(126, 11, 11);
+}
+#simple_text{
+    color: rgb(141, 93, 93);
+}
+.form-select{
+    background-color: rgb(38, 19, 19);
+    color: white;
+}
+.progress-bar{
+    background-color: #222;
+}
+#rating_star{
+    position: absolute; 
+    height: 45px; 
+    bottom: 10px; 
+    right: 20px;
+    background-color: #141414;
+    padding: 10px;
+    border: 1px solid rgb(126, 11, 11);
+}
+#rating_star img{
+    height: 23px;
+}
+#rec_columns{
+    text-align: center;
+}
