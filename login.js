@@ -78,3 +78,29 @@ window.onload = function () {
         }
     });
 };
+
+const users = [
+    { email: "231294@astanait.edu.kz", password: "bavYs6BIRxNsw", role: "admin" },
+    { email: "kaskeevnurzhan@gmail.com", password: "1029384756n", role: "user" }
+];
+
+function authenticateUser(event) {
+    event.preventDefault(); 
+    
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+
+    const user = users.find(u => u.email === email && u.password === password);
+
+    if (user) {
+        if (user.role === "admin") {
+            alert("Welcome, Admin!");
+            window.location.href = "admin_panel.html";
+        } else if (user.role === "user") {
+            alert("Welcome, User!");
+            window.location.href = "profile.html";
+        }
+    } else {
+        alert("Invalid email or password. Please try again.");
+    }
+}
