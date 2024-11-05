@@ -51,3 +51,28 @@ document.getElementById('searchButton').addEventListener('click', () => {
 
     displayResults(filteredMovies); 
 });
+
+const movieElements = document.querySelectorAll('.openf');
+
+movieElements.forEach(element => {
+    element.addEventListener('click', () => {
+        const movieUrl = element.getAttribute('data-movie-url');
+        
+        const movieIframe = document.getElementById('movieIframe');
+        movieIframe.src = movieUrl;
+
+        const movieModal = new bootstrap.Modal(document.getElementById('movieModal'));
+        movieModal.show();
+    });
+});
+
+document.getElementById('movieModal').addEventListener('hidden.bs.modal', () => {
+    const movieIframe = document.getElementById('movieIframe');
+    movieIframe.src = '';
+});
+
+place = document.getElementById("delimiter");
+line = document.createElement(`div`);
+line.className = `bg-primary`;
+line.innerHTML= ``;
+place.appendChild(line)
