@@ -1,8 +1,8 @@
-#navbuttons{
-    background-color: rgb(38, 19, 19);
+.navbar{
+    background-color: #130e0ee7;
 }
 body {
-    background-color: #141414;
+    background-color: #0f0101;
     color: white;
     display: flex;
     flex-direction: column;
@@ -32,9 +32,17 @@ main {
     background-color: red;
     border: none;
 }
+.list-group-item{
+    background-color: #0f0101;
+    color:white;
+    
+}
 
 .btn-primary:hover {
     background-color: rgba(255, 0, 0, 0.829);
+}
+.sub-button{
+    background-color: rgb(126, 11, 11);
 }
 
 .form-label {

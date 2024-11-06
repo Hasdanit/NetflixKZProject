@@ -16,33 +16,31 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 h-100">
-                <div class="container-fluid">
-                    <a class="navbar-brand fs-2" href="#">NetflixKZ</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav d-flex p-2" id="navbuttons">
-                            <li class="nav-item"><a id="" class="nav-link active" aria-current="page"
-                                    href="index.html">Main page</a></li>
-                            <li><a id="navbuttons" class="nav-link active" aria-current="page"
-                                    href="search.html">Search</a></li>
-                            <li><a id="navbuttons" class="nav-link active" aria-current="page" href="tops.html">Tops</a>
-                            </li>
-                            <li><a id="navbuttons" class="nav-link active" aria-current="page"
-                                    href="about.html">About</a></li>
-                            <li><a id="navbuttons" class="nav-link active" aria-current="page"
-                                    href="about.html">About</a></li>
-                        </ul>
-                        <div class=" ms-auto"><a class="nav-link active " aria-current="page"
-                                href="signup.html">Login/Register</a></div>
-                    </div>
+            <nav class="navbar navbar-expand-lg navbar-dark p-0 h-100">
+              <div class="container-fluid">
+                <a href="index.html" class="w-25">
+                  <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240313101431/Netflix-Logo.png"
+                    class=" w-75 m-1"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                  <ul class="navbar-nav d-flex flex-row fs-3" style="display: flex; justify-content: center;" id="navbuttons">
+                      <li><a id="navbuttons" class="nav-link active" aria-current="page" href="search.html">Search</a></li>
+                      <li><a id="navbuttons" class="nav-link active" aria-current="page" href="tops.html">Tops</a></li>
+                      <li><a id="navbuttons" class="nav-link active" aria-current="page" href="about.html">About</a></li>
+                      <li><a id="navbuttons" class="nav-link active" aria-current="page" href="about.html">About</a></li>
+                   
+                  </ul>
+                  <div class=" ms-auto"><a class="nav-link active " aria-current="page" href="signup.html">Login/Register</a>
+                  </div>
                 </div>
+              </div>
             </nav>
-
-        </header>
+        
+          </header>
         <main>
             <div class="container">
                 <div class="container">
@@ -70,6 +68,7 @@
                     </select>
                     <div id="searchResults" class="row text-center m-4 align-items-center" ></div>
                 </div>
+                <div id="delimiter"></div>
             </div>
             </div>
             <div class="container statistic">
