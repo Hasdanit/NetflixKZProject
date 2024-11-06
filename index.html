@@ -13,21 +13,23 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-0 h-100">
+    <nav class="navbar navbar-expand-lg navbar-dark p-0 h-100">
       <div class="container-fluid">
-        <a class="navbar-brand fs-2" href="#">NetflixKZ</a>
+        <a href="index.html" class="w-25">
+          <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240313101431/Netflix-Logo.png"
+            class=" w-75 m-1"/>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav d-flex p-2" id="navbuttons">
-            <li class="nav-item"><a id="" class="nav-link active" aria-current="page" href="index.html">Main page</a>
-            </li>
-            <li><a id="navbuttons" class="nav-link active" aria-current="page" href="search.html">Search</a></li>
-            <li><a id="navbuttons" class="nav-link active" aria-current="page" href="tops.html">Tops</a></li>
-            <li><a id="navbuttons" class="nav-link active" aria-current="page" href="about.html">About</a></li>
-            <li><a id="navbuttons" class="nav-link active" aria-current="page" href="about.html">About</a></li>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav d-flex flex-row fs-3" style="display: flex; justify-content: center;" id="navbuttons">
+              <li><a id="navbuttons" class="nav-link active" aria-current="page" href="search.html">Search</a></li>
+              <li><a id="navbuttons" class="nav-link active" aria-current="page" href="tops.html">Tops</a></li>
+              <li><a id="navbuttons" class="nav-link active" aria-current="page" href="about.html">About</a></li>
+              <li><button type="button" id="navbuttons" class="nav-link active sub-button rounded-4" aria-current="page"><a href="Subscription.html" style="text-decoration: none; color: white;">Subscribtion</a></button></li>
+           
           </ul>
           <div class=" ms-auto"><a class="nav-link active " aria-current="page" href="signup.html">Login/Register</a>
           </div>
@@ -43,39 +45,40 @@
         <div id="carouselPopular" class="container col-sm-12 col-md-4">
           <div id="carousel" class="carousel slide mx-auto p-3 container" data-bs-ride="carousel">
             <div class="carousel-inner border border-10">
-              <div class="carousel-item active openf" data-movie-title="Along the Dark" data-movie-url="https://www.youtube.com/embed/ADGSIaE6nzE">
+              <div class="carousel-item active openf" data-movie-title="Along the Dark"
+                data-movie-url="https://www.youtube.com/embed/ADGSIaE6nzE">
                 <div id="rating_star"><img src="images/rating.png" alt="">
-                  8.8</div>  
+                  8.8</div>
                 <img src="images/killer_heat.jpg" alt="Movie Poster" class="d-block w-100">
               </div>
               <div class="carousel-item">
                 <div id="rating_star"><img src="images/rating.png" alt="">
-                  7.3</div>   
+                  7.3</div>
                 <img src="images/salems_lot.jpg" alt="Movie Poster" class="d-block w-100">
               </div>
               <div class="carousel-item">
                 <div id="rating_star"><img src="images/rating.png" alt="">
-                  3.4</div>   
+                  3.4</div>
                 <img src="images/terrifier_three_ver3.jpg" alt="Movie Poster" class="d-block w-100">
               </div>
               <div class="carousel-item">
                 <div id="rating_star"><img src="images/rating.png" alt="">
-                  9.8</div>   
+                  9.8</div>
                 <img src="images/things_will_be_different.jpg" alt="Movie Poster" class="d-block w-100">
               </div>
               <div class="carousel-item">
                 <div id="rating_star"><img src="images/rating.png" alt="">
-                  6.0</div>   
+                  6.0</div>
                 <img src="images/watership_down_ver2.jpg" alt="Movie Poster" class="d-block w-100">
               </div>
               <div class="carousel-item">
                 <div id="rating_star"><img src="images/rating.png" alt="">
-                  8.1</div>   
+                  8.1</div>
                 <img src="images/uglies_ver2.jpg" alt="Movie Poster" class="d-block w-100">
               </div>
               <div class="carousel-item">
                 <div id="rating_star"><img src="images/rating.png" alt="">
-                  6.4</div>   
+                  6.4</div>
                 <img src="images/zombie_apache.jpg" alt="Movie Poster" class="d-block w-100">
               </div>
             </div>
@@ -103,7 +106,9 @@
     <div class="container text-center">
       <h1 id="title" class="recomendations-word">Recomendations for you</h1>
       <div id="rec-columns" class="row align-items-center">
-        <div class="col-lg-3 col-sm-6 col-md-4 text-center openf" data-movie-url="https://www.youtube.com/embed/your_movie_link_1" data-movie-title="Along the Dark"><img class="w-75" src="images/critic_ver2.jpg" alt=""></div>
+        <div class="col-lg-3 col-sm-6 col-md-4 text-center openf"
+          data-movie-url="https://www.youtube.com/embed/your_movie_link_1" data-movie-title="Along the Dark"><img
+            class="w-75" src="images/critic_ver2.jpg" alt=""></div>
         <div class="col-lg-3 col-sm-6 col-md-4 text-center"><img class="w-75" src="images/howls_moving_castle_ver4.jpg"
             alt=""></div>
         <div class="col-lg-3 col-sm-6 col-md-4 text-center"><img class="w-75" src="images/wild_robot_ver13.jpg" alt="">
