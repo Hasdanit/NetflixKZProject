@@ -76,3 +76,23 @@ line = document.createElement(`div`);
 line.className = `bg-primary`;
 line.innerHTML= ``;
 place.appendChild(line)
+{
+    document.getElementsByClassName('getsub').addEventListener('click',() => {
+        if(!(localStorage.getItem('Subscribtion'))){
+
+            localStorage.setItem('Subscribtion', true);
+        }
+        else if(localStorage.getItem('Subscribtion')){
+            localStorage.setItem('Subscribtion', false);
+        }
+    })
+}
+
+{
+    subInf = localStorage.getItem('Subscribtion');
+    if(subInf){
+        access = document.getElementsByClassName("access");
+        having = `You have subscription your queality and resolution have been updated`;
+        access.appendChild(having);
+    }
+}
