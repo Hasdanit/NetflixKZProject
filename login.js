@@ -80,7 +80,7 @@ window.onload = function () {
 };
 
 const users = [
-    { email: "231294@astanait.edu.kz", password: "bavYs6BIRxNsw", role: "admin" },
+    { email: "nurzhankaskeev@gmail.com", password: "bavYs6BIRxNsw", role: "admin" },
     { email: "kaskeevnurzhan@gmail.com", password: "1029384756n", role: "user" }
 ];
 
